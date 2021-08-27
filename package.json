@@ -4,7 +4,14 @@
   "description": "Pruebas automatizadas de los productos de Toctoc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --reporter mochawesome",
+    "cy:run:retasalo": "cypress run --spec 'cypress/integration/feature/Retasalo/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Retasalo",
+    "cy:run:gestion": "cypress run --spec 'cypress/integration/feature/GestionCorredor/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Gestion",
+    "cy:run:add": "cypress run --spec 'cypress/integration/feature/AddInmobiliario/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Add",
+    "cy:run:login": "cypress run --spec 'cypress/integration/feature/Toctoc_Login/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Login",
+    "cy:run:buscador": "cypress run --spec 'cypress/integration/feature/Toctoc_Buscador/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Buscador",
+    "cy:run:inmobiliaria": "cypress run --spec 'cypress/integration/feature/Toctoc_Inmobiliaria/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Inmobiliaria"
   },
   "keywords": [
     "QA",
@@ -15,6 +22,17 @@
   "author": "Mariela Hurtado",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^7.4.0"
+    "@bahmutov/cy-api": "^1.5.0",
+    "cypress": "^7.4.0",
+    "cypress-xpath": "^1.6.2",
+    "mochawesome": "^6.2.2",
+    "npm": "^7.20.1",
+    "react-select": "^4.3.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/feature/step_definitions/**/"
   }
 }

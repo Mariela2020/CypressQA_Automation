@@ -1,0 +1,122 @@
+
+
+Total Resumen: $  28.326 CLP;  27-7-2021  17:40:30
+Producto: Propiedad destacada;  27-7-2021  17:40:30
+Precio:  $23.803;  27-7-2021  17:40:30
+Iva: IVA: $4.523;  27-7-2021  17:40:30
+Total: $28.326;  27-7-2021  17:40:30
+
+Total Resumen: $  28.403 CLP;  18-8-2021  16:59:54
+Producto: Propiedad destacada;  18-8-2021  16:59:54
+Precio:  $23.868;  18-8-2021  16:59:54
+Iva: IVA: $4.535;  18-8-2021  16:59:54
+Total: $28.403;  18-8-2021  16:59:54
+
+Total Resumen: $  28.447 CLP;  24-8-2021  17:34:16
+Producto: Propiedad destacada;  24-8-2021  17:34:16
+
+Total Resumen: $  28.447 CLP;  24-8-2021  17:46:2
+Producto: Propiedad destacada;  24-8-2021  17:46:2
+Precio del producto: $23.905;  24-8-2021  17:46:2
+Iva: IVA: $4.542;  24-8-2021  17:46:2
+Total: $28.447;  24-8-2021  17:46:2
+
+Total Resumen: $  711.174 CLP;  24-8-2021  18:3:18
+Producto: Banners;  24-8-2021  18:3:18
+Precio del producto: $597.625;  24-8-2021  18:3:18
+Iva: IVA: $113.549;  24-8-2021  18:3:18
+Total: $711.174;  24-8-2021  18:3:18
+Producto: Espacio landing (unidad);  24-8-2021  18:39:35
+Precio del producto: $59.763;  24-8-2021  18:39:35
+Iva: IVA: $11.355;  24-8-2021  18:39:35
+Total: $71.118;  24-8-2021  18:39:35
+
+Total Resumen: $  71.117 CLP;  24-8-2021  18:44:28
+Producto: Espacio landing (unidad);  24-8-2021  18:44:28
+Precio del producto: $59.763;  24-8-2021  18:44:28
+Iva: IVA: $11.355;  24-8-2021  18:44:28
+Total: $71.118;  24-8-2021  18:44:28
+
+Total Resumen: $  71.117 CLP;  24-8-2021  18:46:18
+Producto: Espacio landing (unidad);  24-8-2021  18:46:18
+Precio del producto: $59.763;  24-8-2021  18:46:18
+Iva: IVA: $11.355;  24-8-2021  18:46:18
+Total: $71.118;  24-8-2021  18:46:18
+
+Total Resumen: $  28.454 CLP;  25-8-2021  9:44:27
+Producto: Propiedad destacada;  25-8-2021  9:44:27
+Precio del producto: $23.911;  25-8-2021  9:44:27
+Iva: IVA: $4.543;  25-8-2021  9:44:27
+Total: $28.454;  25-8-2021  9:44:27
+
+Total Resumen: $  71.136 CLP;  25-8-2021  9:44:27
+Producto: Mailing;  25-8-2021  9:44:27
+Precio del producto: $59.778;  25-8-2021  9:44:27
+Iva: IVA: $11.358;  25-8-2021  9:44:27
+Total: $71.136;  25-8-2021  9:44:27
+
+Total Resumen: $  711.357 CLP;  25-8-2021  9:44:27
+Producto: Banners;  25-8-2021  9:44:27
+Precio del producto: $597.779;  25-8-2021  9:44:27
+Iva: IVA: $113.578;  25-8-2021  9:44:27
+Total: $711.357;  25-8-2021  9:44:27
+
+Total Resumen: $  675.789 CLP;  25-8-2021  9:44:27
+Producto: Banner + 5 Propiedades destacadas;  25-8-2021  9:44:27
+Precio del producto: $567.890;  25-8-2021  9:44:27
+Iva: IVA: $107.899;  25-8-2021  9:44:27
+Total: $675.789;  25-8-2021  9:44:27
+
+Total Resumen: $  213.407 CLP;  25-8-2021  9:44:27
+Producto: Mail (500) + 5 Propiedades destacadas;  25-8-2021  9:44:27
+Precio del producto: $179.334;  25-8-2021  9:44:27
+Iva: IVA: $34.073;  25-8-2021  9:44:27
+Total: $213.407;  25-8-2021  9:44:27
+
+Total Resumen: $  177.839 CLP;  25-8-2021  9:44:27
+Producto: Api Contactos;  25-8-2021  9:44:27
+Precio del producto: $149.445;  25-8-2021  9:44:27
+Iva: IVA: $28.395;  25-8-2021  9:44:27
+Total: $177.840;  25-8-2021  9:44:27
+
+Total Resumen: $  71.136 CLP;  25-8-2021  9:48:57
+Producto: Espacio landing (unidad);  25-8-2021  9:48:57
+Precio del producto: $59.778;  25-8-2021  9:48:57
+Iva: IVA: $11.358;  25-8-2021  9:48:57
+Total: $71.136;  25-8-2021  9:48:57
+
+Total Resumen: $  71.136 CLP;  25-8-2021  11:18:46
+Producto: Espacio landing (unidad);  25-8-2021  11:18:46
+Precio del producto: $59.778;  25-8-2021  11:18:46
+Iva: IVA: $11.358;  25-8-2021  11:18:46
+Total: $71.136;  25-8-2021  11:18:46
+
+Total Resumen: $  71.136 CLP;  25-8-2021  12:8:46
+Producto: Espacio landing (unidad);  25-8-2021  12:8:46
+Precio del producto: $59.778;  25-8-2021  12:8:46
+Iva: IVA: $11.358;  25-8-2021  12:8:46
+Total: $71.136;  25-8-2021  12:8:46
+
+Total Resumen: $  71.136 CLP;  25-8-2021  19:24:44
+Producto: Espacio landing (unidad);  25-8-2021  19:24:44
+Precio del producto: $59.778;  25-8-2021  19:24:44
+Iva: IVA: $11.358;  25-8-2021  19:24:44
+Total: $71.136;  25-8-2021  19:24:44
+
+Total Resumen: $  71.136 CLP;  25-8-2021  19:32:36
+Producto: Espacio landing (unidad);  25-8-2021  19:32:36
+Precio del producto: $59.778;  25-8-2021  19:32:36
+Iva: IVA: $11.358;  25-8-2021  19:32:36
+Total: $71.136;  25-8-2021  19:32:36
+
+Total Resumen: $  71.136 CLP;  25-8-2021  19:37:47
+Producto: Espacio landing (unidad);  25-8-2021  19:37:47
+Precio del producto: $59.778;  25-8-2021  19:37:47
+Iva: IVA: $11.358;  25-8-2021  19:37:47
+Total: $71.136;  25-8-2021  19:37:47
+
+Total Resumen: $  71.136 CLP;  25-8-2021  19:47:18
+Producto: Espacio landing (unidad);  25-8-2021  19:47:18
+Precio del producto: $59.778;  25-8-2021  19:47:18
+Iva: IVA: $11.358;  25-8-2021  19:47:18
+Total: $71.136;  25-8-2021  19:47:18

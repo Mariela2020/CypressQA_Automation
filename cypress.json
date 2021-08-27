@@ -1,0 +1,19 @@
+{
+  "experimentalNetworkStubbing": true,
+  "chromeWebSecurity": false,
+   
+  "testFiles": "**/*.{feature,features}",
+ 
+  "projectId": "5hvcwa",
+  
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": true,
+      "html": false,
+      "json": true
+    },
+    
+  "video":false
+
+}

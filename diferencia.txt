@@ -1,0 +1,73 @@
+
+
+Valor UF Obtenido: 29.835,22/ Total Resumen Esperado: undefined 18-8-2021  16:58:27
+
+Total Resumen Obtenido: 28.447/ Total Resumen Esperado: 28.387 24-8-2021  17:34:16
+
+Total Resumen Obtenido: 28.447/ Total Resumen Esperado: 28.387 24-8-2021  17:46:2
+Producto: Propiedad destacada Precio Obtenido: 23.905/ Precio esperado: NaN 24-8-2021  17:46:2
+Iva Obtenido: 4.542/ Iva esperado: 4.482   24-8-2021  17:46:2
+Total del Detalle Obtenido: 28.447/ Total del Resumen Obtenido: 28.387 24-8-2021  17:46:2
+Total del Detalle Obtenido: 71.118/ Total del Resumen Obtenido: 711.174 24-8-2021  18:39:35
+Total del Detalle Obtenido: 71.118/ Total del Resumen Obtenido: 71.117 24-8-2021  18:44:28
+Total del Detalle Obtenido: 71.118/ Total del Resumen Obtenido: 71.117 24-8-2021  18:46:18
+
+Total Resumen Obtenido: 28.454/ Total Resumen Esperado: 28.387 25-8-2021  9:44:27
+Producto: Propiedad destacada Precio Obtenido: 23.911/ Precio esperado: 23.905 25-8-2021  9:44:27
+Iva Obtenido: 4.543/ Iva esperado: 4.482   25-8-2021  9:44:27
+Total del Detalle Obtenido: 28.454/ Total del Resumen Obtenido: 28.387 25-8-2021  9:44:27
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.117 25-8-2021  9:44:27
+Producto: Mailing Precio Obtenido: 59.778/ Precio esperado: 59.763 25-8-2021  9:44:27
+Iva Obtenido: 11.358/ Iva esperado: 11.355   25-8-2021  9:44:27
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.117 25-8-2021  9:44:27
+
+Total Resumen Obtenido: 711.357/ Total Resumen Esperado: 711.174 25-8-2021  9:44:27
+Producto: Banners Precio Obtenido: 597.779/ Precio esperado: 597.625 25-8-2021  9:44:27
+Iva Obtenido: 113.578/ Iva esperado: 113.549   25-8-2021  9:44:27
+Total del Detalle Obtenido: 711.357/ Total del Resumen Obtenido: 711.174 25-8-2021  9:44:27
+
+Total Resumen Obtenido: 675.789/ Total Resumen Esperado: 675.616 25-8-2021  9:44:27
+Producto: Banner + 5 Propiedades destacadas Precio Obtenido: 567.89/ Precio esperado: 567.744 25-8-2021  9:44:27
+Iva Obtenido: 107.899/ Iva esperado: 107.871   25-8-2021  9:44:27
+Total del Detalle Obtenido: 675.789/ Total del Resumen Obtenido: 675.616 25-8-2021  9:44:27
+
+Total Resumen Obtenido: 213.407/ Total Resumen Esperado: 213.352 25-8-2021  9:44:27
+Producto: Mail (500) + 5 Propiedades destacadas Precio Obtenido: 179.334/ Precio esperado: 179.288 25-8-2021  9:44:27
+Iva Obtenido: 34.073/ Iva esperado: 34.065   25-8-2021  9:44:27
+Total del Detalle Obtenido: 213.407/ Total del Resumen Obtenido: 213.352 25-8-2021  9:44:27
+
+Total Resumen Obtenido: 177.839/ Total Resumen Esperado: 177.794 25-8-2021  9:44:27
+Producto: Api Contactos Precio Obtenido: 149.445/ Precio esperado: 149.406 25-8-2021  9:44:27
+Iva Obtenido: 28.395/ Iva esperado: 28.387   25-8-2021  9:44:27
+Total del Detalle Obtenido: 177.84/ Total del Resumen Obtenido: 177.794 25-8-2021  9:44:27
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.117 25-8-2021  9:48:57
+Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 59.763 25-8-2021  9:48:57
+Iva Obtenido: 11.358/ Iva esperado: 11.355   25-8-2021  9:48:57
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.117 25-8-2021  9:48:57
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.117 25-8-2021  11:18:46
+Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 59.763 25-8-2021  11:18:46
+Iva Obtenido: 11.358/ Iva esperado: 11.355   25-8-2021  11:18:46
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.117 25-8-2021  11:18:46
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.117 25-8-2021  12:8:46
+Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 59.763 25-8-2021  12:8:46
+Iva Obtenido: 11.358/ Iva esperado: 11.355   25-8-2021  12:8:46
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.117 25-8-2021  12:8:46
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71 25-8-2021  19:24:44
+Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 60 25-8-2021  19:24:44
+Iva Obtenido: 11.358/ Iva esperado: 11   25-8-2021  19:24:44
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71 25-8-2021  19:24:44
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.133 25-8-2021  19:32:36
+Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 59.776 25-8-2021  19:32:36
+Iva Obtenido: 11.358/ Iva esperado: 11.357   25-8-2021  19:32:36
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.133 25-8-2021  19:32:36
+
+Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.133 25-8-2021  19:37:47
+Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 59.776 25-8-2021  19:37:47
+Iva Obtenido: 11.358/ Iva esperado: 11.357   25-8-2021  19:37:47
+Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.133 25-8-2021  19:37:47

@@ -1,0 +1,82 @@
+[
+    {
+      "Producto": "Propiedad Destacada",
+      "PrecioUF": "0,8",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Ultimas Ventas",
+      "PrecioUF": "3",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Mailing",
+      "PrecioUF": "2",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Banner",
+      "PrecioUF": "20",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Banner + 5 propiedades destacadas",
+      "PrecioUF": "19",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Espacio Landing (Unidad)",
+      "PrecioUF": "2",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Mail (500) + 5 Propiedades destacada",
+      "PrecioUF": "6",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Api Contactos",
+      "PrecioUF": "5",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Propiedad destacada x5",
+      "PrecioUF": "4",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Propiedad destacada x15",
+      "PrecioUF": "11",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Propiedad destacada x30",
+      "PrecioUF": "20",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Propiedad destacada x60",
+      "PrecioUF": "35",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Inicia",
+      "PrecioUF": "1",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Crece",
+      "PrecioUF": "2",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Acelera",
+      "PrecioUF": "3",
+      "descuento": "0"
+    },
+    {
+      "Producto": "Escala",
+      "PrecioUF": "5",
+      "descuento": "0"
+    }
+   ]
