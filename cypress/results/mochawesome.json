@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-08-25T20:49:48.393Z",
-    "end": "2021-08-25T20:49:48.896Z",
-    "duration": 503,
+    "failures": 0,
+    "start": "2021-08-30T21:36:49.812Z",
+    "end": "2021-08-30T21:36:52.018Z",
+    "duration": 2206,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,16 +18,16 @@
   },
   "results": [
     {
-      "uuid": "b54ae80d-4809-44bb-b075-6edf4380e521",
+      "uuid": "71ff6d52-bb99-40ff-9680-467ca6e456ba",
       "title": "",
-      "fullFile": "cypress/integration/feature/Toctoc_Buscador/reporteb.feature",
-      "file": "cypress/integration/feature/Toctoc_Buscador/reporteb.feature",
+      "fullFile": "cypress/integration/feature/AddInmobiliario/reporte.feature",
+      "file": "cypress/integration/feature/AddInmobiliario/reporte.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "f928f310-cd84-41e6-aa5d-903334c3b7c7",
+          "uuid": "33e48560-d6b5-4784-816c-a9feae926683",
           "title": "Data Reporte",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Obtiene las Métricas del Reporte",
               "fullTitle": "Data Reporte Obtiene las Métricas del Reporte",
               "timedOut": null,
-              "duration": 467,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 2191,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "ReferenceError: arrendo is not defined",
-                "estack": "ReferenceError: arrendo is not defined\n    at Context.eval (http://localhost:63537/__cypress/tests?p=cypress\\integration\\feature\\Toctoc_Buscador\\reporteb.feature:1562:22)",
-                "diff": null
-              },
-              "uuid": "9a23eb87-579c-4507-a35c-d7db8bcc5252",
-              "parentUUID": "f928f310-cd84-41e6-aa5d-903334c3b7c7",
+              "err": {},
+              "uuid": "4f738659-b9b5-421e-af93-551f8856c6e1",
+              "parentUUID": "33e48560-d6b5-4784-816c-a9feae926683",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "9a23eb87-579c-4507-a35c-d7db8bcc5252"
+          "passes": [
+            "4f738659-b9b5-421e-af93-551f8856c6e1"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 467,
+          "duration": 2191,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
