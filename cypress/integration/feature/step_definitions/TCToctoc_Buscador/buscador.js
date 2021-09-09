@@ -85,17 +85,22 @@ And("Ingresa el codigo de la propiedad", (datatable) =>{
         cy.get('#cBuscaXcod > .c-buscadatos > .form-row > .col-sm-9 > .form-control')
         cy.get('#cBuscaXcod > .c-buscadatos > .form-row > .col-sm-9 > .form-control').type(element.codigo)
     })
-    cy.get('#cBuscaXcod > .c-buscadatos > .form-row > .col-sm-3 > #btnBusca', {timeout:10000}).click()
+    cy.get('#cBuscaXcod > .c-buscadatos > .form-row > .col-sm-3 > #btnBusca').click()
 })
      
 And("El sistema muestra la ficha propiedad", ()=> {
 
-    cy.log("agregar assert")
+    cy.get('.tt-ficha', {timeout:10000}).should('be.visible')
 })
 
 Then("El usuario cotiza una planta de interes", ()=> {
 
-    cy.get('.cf-cta > .btn').click()
-    cy.get('.c-btns > .btn-success').click()
-    cy.get('.modal-header').should('be.visible')
+   // cy.get('.btn-cotiza-nuevo').click()
+
+   cy.get(':nth-child(2) > :nth-child(3) > .btn-cotiza-nuevo').click({force:true})
+
+
+   //cy.get('.cf-cta > .btn').click()
+   // cy.get('.c-btns > .btn-success').click()
+   // cy.get('.modal-header').should('be.visible')
 })
