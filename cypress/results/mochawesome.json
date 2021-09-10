@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-08-31T21:51:35.210Z",
-    "end": "2021-08-31T21:51:42.204Z",
-    "duration": 6994,
+    "start": "2021-09-10T14:01:57.776Z",
+    "end": "2021-09-10T14:02:04.355Z",
+    "duration": 6579,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,16 +18,16 @@
   },
   "results": [
     {
-      "uuid": "6c9b68cf-5508-4420-9dfe-c7363434d150",
+      "uuid": "e25dc3b9-bf7d-4663-89e0-b6a226d6b94a",
       "title": "",
-      "fullFile": "cypress/integration/feature/AddInmobiliario/reporte.feature",
-      "file": "cypress/integration/feature/AddInmobiliario/reporte.feature",
+      "fullFile": "cypress/integration/feature/Toctoc_Buscador/reporteb.feature",
+      "file": "cypress/integration/feature/Toctoc_Buscador/reporteb.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "f0684869-b20b-472e-9508-15a48b9fb1d0",
+          "uuid": "785564e6-ca5d-4235-950a-2bd833ced610",
           "title": "Data Reporte",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Obtiene las Métricas del Reporte",
               "fullTitle": "Data Reporte Obtiene las Métricas del Reporte",
               "timedOut": null,
-              "duration": 6971,
+              "duration": 6553,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "65517839-cd84-48f9-8bd1-735f5c78299e",
-              "parentUUID": "f0684869-b20b-472e-9508-15a48b9fb1d0",
+              "uuid": "e5c13c83-ea1c-409d-9161-596ee1d8b747",
+              "parentUUID": "785564e6-ca5d-4235-950a-2bd833ced610",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "65517839-cd84-48f9-8bd1-735f5c78299e"
+            "e5c13c83-ea1c-409d-9161-596ee1d8b747"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6971,
+          "duration": 6553,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
