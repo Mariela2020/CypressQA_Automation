@@ -2,13 +2,13 @@ import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 
 Given('El usuario se encuentra en la pagina Toctoc', () =>{
     cy.visit('https://www.toctoc.com/')
-    cy.get('#onesignal-slidedown-cancel-button').click()
+    cy.get('#onesignal-slidedown-cancel-button', {timeout:3000}).click()
     cy.title().should('eq','TOCTOC.com - Casas, Departamentos en Venta y Arriendo publicados en este portal inmobiliario') 
 
   })
 
   And('Hace click sobre el Menu Principal Inmobiliaria - Catalogo de Inmobiliarias',()=>{
-    cy.get(':nth-child(3) > .dropdown').click()
+    cy.get(':nth-child(3) > .dropdown', {timeout:3000}).click()
    // cy.xpath('//strong[contains(text(),"Catálogo de Inmobiliarias")]').click()
     // cy.xpath('//*[@id="menuscroll"]/li[3]/div/div[1]/ul/li[11]/a/strong', {timeout:10000}).click()
     cy.contains('Catálogo de Inmobiliarias').click()

@@ -31,7 +31,7 @@ And("El sistema muestra las propiedades en Venta", ()=>{
 
 Then("Selecciona la primera propiedad en Venta", ()=>{
  
-    cy.get('.lnk-info', {timeout:5000}).should('be.visible')
+    cy.get('.lnk-info', {timeout:10000}).should('be.visible')
 
     cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
 
@@ -53,7 +53,7 @@ And("Ingresa una comuna de interes", (datatable) =>{
 
 And("El sistema muestra las propiedades en Arriendo", ()=>{
  
-    cy.get(':nth-child(2) > .lnk-info > .c-infores > .info-body > .region', {timeout:5000}).should('be.visible').and('contain','Santiago')
+    cy.get(':nth-child(2) > .lnk-info > .c-infores > .info-body > .region', {timeout:10000}).should('be.visible').and('contain','Santiago')
 })
 
 Then("Selecciona la primera propiedad en Arriendo", ()=>{
