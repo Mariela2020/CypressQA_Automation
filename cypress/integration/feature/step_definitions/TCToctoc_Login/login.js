@@ -3,7 +3,7 @@ import {Given, When, And, Then} from "cypress-cucumber-preprocessor/steps"
 Given("El usuario esta en la página de Toctoc, cierra el mensaje y hace click en botón Entrar", () => {
 
     cy.visit("https://www.toctoc.com/");
-    cy.get('#onesignal-slidedown-cancel-button').click()
+    cy.get('#onesignal-slidedown-cancel-button', {timeout:10000}).click()
    // cy.title().should('eq','TOCTOC.com - Casas, Departamentos en Venta y Arriendo publicados en este portal inmobiliario') 
     cy.get('#btnLogin').click()
     cy.get('p.text-center > strong').should('be.visible').and('contain','Inicia sesión con tu cuenta')

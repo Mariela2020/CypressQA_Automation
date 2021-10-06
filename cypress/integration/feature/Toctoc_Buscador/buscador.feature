@@ -27,8 +27,8 @@ Feature: Buscador Principal HomePage
         
   Scenario: Busca una Propiedad por codigo y cotiza la propiedad
         
-        When Inicia sesion con credenciales valida
-         And El usuario hace click en el Link Buscar por codigo
+       # When Inicia sesion con credenciales valida
+        When El usuario hace click en el Link Buscar por codigo
          And Ingresa el codigo de la propiedad
              |codigo        | 
              |TT-1804829    |  

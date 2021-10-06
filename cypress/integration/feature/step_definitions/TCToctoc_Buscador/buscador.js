@@ -63,7 +63,7 @@ Then("Selecciona la primera propiedad en Arriendo", ()=>{
 
 When("Inicia sesion con credenciales valida", () =>{
 
-    cy.get('#onesignal-slidedown-cancel-button', {timeout:5000}).click()
+    cy.get('#onesignal-slidedown-cancel-button', {timeout:10000}).click()
     cy.get('#btnLogin').click()
     cy.get('p.text-center > strong').should('be.visible').and('contain','Inicia sesión con tu cuenta')
     cy.intercept("${ssoGatewayUrl}/**").as('sso')
