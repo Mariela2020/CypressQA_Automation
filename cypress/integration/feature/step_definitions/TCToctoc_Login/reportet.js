@@ -27,9 +27,20 @@ Given('Obtiene y registra las metricas del Login', () =>{
             cy.log(recuperar)
             var state_re = data.results[0].suites[0].tests[2].state
             cy.log(state_re)
+
+            var valida1 = data.results[0].suites[0].tests[3].duration
+            cy.log(valida1)
+            var state_va1 = data.results[0].suites[0].tests[3].state
+            cy.log(state_va1)
+            var invalida1 = data.results[0].suites[0].tests[4].duration
+            cy.log(invalida1)
+            var state_in1 = data.results[0].suites[0].tests[4].state
+            cy.log(state_in1)
+            var recuperar1 = data.results[0].suites[0].tests[5].duration
+            cy.log(recuperar1)
+            var state_re1 = data.results[0].suites[0].tests[5].state
+            cy.log(state_re1)
             
-            
-           
             cy.request({
                 url: 'https://coda.io/apis/v1/docs/WvYdhdLDJH/tables/data_cy_login/rows', 
                 method: 'POST',
@@ -57,10 +68,37 @@ Given('Obtiene y registra las metricas del Login', () =>{
               }).then((response) => {
                  expect(response.status).to.eq(202)
                })
-
-               
            
-        })
+              cy.request({
+                url: 'https://coda.io/apis/v1/docs/WvYdhdLDJH/tables/data_cy_login_mobile/rows', 
+                method: 'POST',
+                headers: {
+                  'Authorization': 'Bearer fdaf70a0-204e-48f2-9c6f-2aa8156f847f',
+                  'content-type': 'application/json'
+                  },
+                body : {
+                  'rows': [
+                        {
+                      'cells': [
+                               {'column': 'c-EI48jvf4zm', 'value': date},
+                               {'column': 'c-K93c0h8DST', 'value': valida1},
+                               {'column': 'c-oZGIpgd5Gf', 'value': state_va1},
+                               {'column': 'c-DCkk6O-9TX', 'value': invalida1},
+                               {'column': 'c-89orHRJNgH', 'value': state_in1},
+                               {'column': 'c-qYT19W3gV4', 'value': recuperar1},
+                               {'column': 'c-nMHNjVNeel', 'value': state_re1}
+                                                             
+                              ]
+                      }
+                  ] 
+                }
+                
+              }).then((response) => {
+                 expect(response.status).to.eq(202)       
+                 
+             })
   
+  })
+
 })
     

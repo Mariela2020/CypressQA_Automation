@@ -10,8 +10,10 @@
     "cy:run:gestion": "cypress run --spec 'cypress/integration/feature/GestionCorredor/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Gestion",
     "cy:run:add": "cypress run --spec 'cypress/integration/feature/AddInmobiliario/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Add",
     "cy:run:login": "cypress run --spec 'cypress/integration/feature/Toctoc_Login/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Login",
+    "cy:run:login1": "cypress run --spec 'cypress/integration/feature/Toctoc_Login/login.feature'",
     "cy:run:buscador": "cypress run --spec 'cypress/integration/feature/Toctoc_Buscador/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Buscador",
-    "cy:run:inmobiliaria": "cypress run --spec 'cypress/integration/feature/Toctoc_Inmobiliaria/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Inmobiliaria"
+    "cy:run:inmobiliaria": "cypress run --spec 'cypress/integration/feature/Toctoc_Inmobiliaria/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Inmobiliaria",
+    "cy:run:inmobiliaria1": "cypress run --spec 'cypress/integration/feature/Toctoc_Inmobiliaria/*.feature'"
   },
   "keywords": [
     "QA",

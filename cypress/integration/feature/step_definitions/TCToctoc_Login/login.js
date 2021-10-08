@@ -11,6 +11,22 @@ Given("El usuario esta en la página de Toctoc, cierra el mensaje y hace click e
 
 })
 
+Given("El usuario esta en la página de Toctoc en mobile", () => {
+
+    cy.viewport('iphone-6') 
+    cy.visit("https://www.toctoc.com/");
+   
+})
+
+And("Cierra el mensaje y hace click en botón Entrar", ()=> {
+
+     cy.get('#onesignal-slidedown-cancel-button', {timeout:10000}).click()
+    // cy.title().should('eq','TOCTOC.com - Casas, Departamentos en Venta y Arriendo publicados en este portal inmobiliario') 
+     cy.get('#btnLogin').click()
+     cy.get('p.text-center > strong').should('be.visible').and('contain','Inicia sesión con tu cuenta')
+     cy.intercept("${ssoGatewayUrl}/**").as('sso')
+})
+
 When("Ingresa credenciales valida", (datatable) =>{
     
     datatable.hashes().forEach((element) => {
