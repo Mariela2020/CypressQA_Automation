@@ -47,7 +47,8 @@ Given('El usuario se encuentra en la pagina Toctoc mobile', () =>{
       })
     })
 
-    cy.get('.sld-item', {timeout:5000}).eq(-10).click({force:true})
+    //cy.get('.sld-item', {timeout:5000}).eq(-10).click({force:true})
+    cy.get('.sld-item', {timeout:5000}).last().click({force:true})
     cy.get('@windowOpen').should('be.called');
     cy.visit(newUrl)
 
