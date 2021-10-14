@@ -62,9 +62,12 @@ And('Comparar el valor de la UF', ()=>{
 
 And('Hace click sobre el menú gestión venta - Cotizaciones - Crear Cotizaciones',()=>{
     
-    cy.get('#ctl00_Ctrlmenu_ASPxMenu1_DXI2_P').click()
-    cy.get('#ctl00_Ctrlmenu_ASPxMenu1_DXI2i2_T').click()
-    cy.xpath('/html/body/form/div[3]/div[2]/div[1]/div/div[2]/table/tbody/tr/td[2]/div[11]/table/tbody/tr/td/table/tbody/tr[1]/td/a').click()
+   // cy.get('#ctl00_Ctrlmenu_ASPxMenu1_DXI2_P').click()
+   // cy.get('#ctl00_Ctrlmenu_ASPxMenu1_DXI2i2_T').click()
+   // cy.xpath('/html/body/form/div[3]/div[2]/div[1]/div/div[2]/table/tbody/tr/td[2]/div[11]/table/tbody/tr/td/table/tbody/tr[1]/td/a').click()
+ 
+   cy.get('#ctl00_Ctrlmenu_btnCrearCotizacion').click()  
+
   });
 
 When('Cuando el usuario ingresa el Rut del Cliente', ()=>{
@@ -100,7 +103,7 @@ And('Selecciona el inmueble, financiamiento y medio de llegada', ()=>{
         cy.get('#ctl00_ContentPlaceHolder1_btnCalcularDividendo').click()  
       }
     
-    cy.get('#ctl00_ContentPlaceHolder1_gvDividendo_DXTDGScol6 > table > tbody > tr > td').should('be.visible')
+    cy.get('#ctl00_ContentPlaceHolder1_gvDividendo_DXTDGScol6 > table > tbody > tr > td', {timeout:5000}).should('be.visible')
 
     if(cy.get('#ctl00_ContentPlaceHolder1_CheckLlegada_0').should('be.visible'))
       {
@@ -109,7 +112,7 @@ And('Selecciona el inmueble, financiamiento y medio de llegada', ()=>{
     else
       {
         cy.get('#imgOtros').click()
-        cy.get('#ctl00_ContentPlaceHolder1_CheckLlegada_0').check()
+        cy.get('#ctl00_ContentPlaceHolder1_CheckLlegada_0', {timeout:5000}).check()
       }
 
 })
@@ -117,12 +120,19 @@ And('Selecciona el inmueble, financiamiento y medio de llegada', ()=>{
 And('Hace click al botón Guardar', ()=>{
 
   cy.wait(2000)
-  const btn_guardar =  "#ctl00_ContentPlaceHolder1_btnGuardarCotizacion"
+  const btn_guardar = Cypress.$("#ctl00_ContentPlaceHolder1_btnGuardarCotizacion")
   cy.get(btn_guardar).should('exist').and('not.be.disabled')
   cy.get(btn_guardar).invoke('width').should('be.greaterThan', 0)
   cy.get(btn_guardar).invoke('height').should('be.greaterThan', 0)
   cy.get(btn_guardar).as('guardarbtn')
   cy.get('@guardarbtn', {timeout:10000}).click({force: true})
+
+  //const btn_guardar = Cypress.$('#ctl00_ContentPlaceHolder1_btnGuardarCotizacion') 
+  //cy.wrap(btn_guardar)
+   // .should('not.have.class', 'active')
+   // .click()
+    ///.wait(2000)
+   ///.should('have.class', 'active')
 
 })
 

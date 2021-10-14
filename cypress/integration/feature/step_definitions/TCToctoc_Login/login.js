@@ -13,7 +13,7 @@ Given("El usuario esta en la página de Toctoc, cierra el mensaje y hace click e
 
 Given("El usuario esta en la página de Toctoc en mobile", () => {
 
-    cy.viewport('iphone-6') 
+    cy.viewport('iphone-6+') 
     cy.visit("https://www.toctoc.com/");
    
 })
