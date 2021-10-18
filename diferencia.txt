@@ -71,3 +71,5 @@ Total Resumen Obtenido: 71.136/ Total Resumen Esperado: 71.133 25-8-2021  19:37:
 Producto: Espacio landing (unidad) Precio Obtenido: 59.778/ Precio esperado: 59.776 25-8-2021  19:37:47
 Iva Obtenido: 11.358/ Iva esperado: 11.357   25-8-2021  19:37:47
 Total del Detalle Obtenido: 71.136/ Total del Resumen Obtenido: 71.133 25-8-2021  19:37:47
+
+Valor UF Obtenido: 30.228,94/ Total Resumen Esperado: 29881.27 18-10-2021  13:33:46
