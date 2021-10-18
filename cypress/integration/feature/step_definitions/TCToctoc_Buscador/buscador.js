@@ -54,7 +54,7 @@ Then("Selecciona la primera propiedad en Venta", ()=>{
 Then("Selecciona la primera propiedad en Venta en mobile", ()=>{
  
     //cy.get('.lnk-info', {timeout:10000}).should('be.visible')
-    cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
+    cy.get('.lnk-info', {timeout:10000}).should('be.visible').invoke('removeAttr', 'target').first().click({force:true})
 
 })
 
@@ -86,7 +86,7 @@ And("El sistema muestra las propiedades en Arriendo", ()=>{
 
 And("El sistema muestra las propiedades en Arriendo en mobile", ()=>{
  
-    cy.get('.btn-group > :nth-child(1)').should('be.visible').click()
+    cy.get('.btn-group > :nth-child(1)', {timeout:10000}).should('be.visible').click()
 })
 
 Then("Selecciona la primera propiedad en Arriendo", ()=>{
