@@ -59,13 +59,13 @@ Feature: Buscador Principal HomePage
          And El sistema muestra las propiedades en Arriendo en mobile
         Then Selecciona la primera propiedad en Arriendo
         
-  #Scenario: Busca una Propiedad por codigo y cotiza la propiedad en mobile
+  Scenario: Busca una Propiedad por codigo y cotiza la propiedad en mobile
         
-   #     Given El usuario esta en Toctoc en mobile
-   #    ## When Inicia sesion con credenciales valida
-   #     When El usuario hace click en el Link Buscar por codigo
-   #      And Ingresa el codigo de la propiedad
-   #          |codigo        | 
-   #          |TT-1804829    |  
-   #      And El sistema muestra la ficha propiedad
-   #    ## Then El usuario cotiza una planta de interes
+        Given El usuario esta en Toctoc en mobile
+       ## When Inicia sesion con credenciales valida
+        When El usuario hace click en el Link Buscar por codigo
+         And Ingresa el codigo de la propiedad
+             |codigo        | 
+             |TT-1804829    |  
+         And El sistema muestra la ficha propiedad
+       ## Then El usuario cotiza una planta de interes

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-15T12:27:36.596Z",
-    "end": "2021-10-15T12:27:38.978Z",
-    "duration": 2382,
+    "start": "2021-10-19T15:47:19.344Z",
+    "end": "2021-10-19T15:47:22.007Z",
+    "duration": 2663,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2a4c5cc3-fa86-48a6-aaf8-536a4dacd6b1",
+      "uuid": "31bd6e54-2d82-4885-b0a0-949b8a52bb0a",
       "title": "",
       "fullFile": "cypress/integration/feature/Toctoc_Buscador/reporteb.feature",
       "file": "cypress/integration/feature/Toctoc_Buscador/reporteb.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bfff4d4c-1530-491d-b05d-111ce2c51434",
+          "uuid": "1ca0d1be-198c-4323-9b15-66b4f3fe4554",
           "title": "Data Reporte",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Obtiene las Métricas del Reporte",
               "fullTitle": "Data Reporte Obtiene las Métricas del Reporte",
               "timedOut": null,
-              "duration": 2367,
+              "duration": 2640,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "bd6fa1fe-acc0-43a4-a256-0fa70fae9260",
-              "parentUUID": "bfff4d4c-1530-491d-b05d-111ce2c51434",
+              "uuid": "e5d515dd-9e50-4d41-9eaa-fcbb57121981",
+              "parentUUID": "1ca0d1be-198c-4323-9b15-66b4f3fe4554",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bd6fa1fe-acc0-43a4-a256-0fa70fae9260"
+            "e5d515dd-9e50-4d41-9eaa-fcbb57121981"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2367,
+          "duration": 2640,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
