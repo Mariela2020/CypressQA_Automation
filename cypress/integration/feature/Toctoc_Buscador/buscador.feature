@@ -4,9 +4,8 @@ Feature: Buscador Principal HomePage
 
    # Background: Buscador 
     #    Given El usuario esta en Toctoc y cierra el mensaje
-          
-  
-   Scenario: Busca una Propiedad en Venta
+
+    Scenario: Busca una Propiedad en Venta
 
        Given El usuario esta en Toctoc 
         When El usuario hace click en el Boton Comprar 
@@ -16,8 +15,8 @@ Feature: Buscador Principal HomePage
          And El sistema muestra las propiedades en Venta
         Then Selecciona la primera propiedad en Venta
         
-   
-   Scenario: Busca una Propiedad en Arriendo
+
+    Scenario: Busca una Propiedad en Arriendo
 
        Given El usuario esta en Toctoc 
         When El usuario hace click en el Boton Arrendar
@@ -27,7 +26,8 @@ Feature: Buscador Principal HomePage
          And El sistema muestra las propiedades en Arriendo
         Then Selecciona la primera propiedad en Arriendo
         
-  Scenario: Busca una Propiedad por codigo y cotiza la propiedad
+    
+    Scenario: Busca una Propiedad por codigo y cotiza la propiedad
         
         Given El usuario esta en Toctoc
       # When Inicia sesion con credenciales valida
@@ -36,9 +36,11 @@ Feature: Buscador Principal HomePage
              |codigo        | 
              |TT-1804829    |  
          And El sistema muestra la ficha propiedad
-       # Then El usuario cotiza una planta de interes
- 
-  Scenario: Busca una Propiedad en Venta en mobile
+       # Then El usuario cotiza una planta de interes 
+
+  
+   
+    Scenario: Busca una Propiedad en Venta en mobile
 
        Given El usuario esta en Toctoc en mobile
         When El usuario hace click en el Boton Comprar 
@@ -49,7 +51,7 @@ Feature: Buscador Principal HomePage
         Then Selecciona la primera propiedad en Venta en mobile
         
    
-   Scenario: Busca una Propiedad en Arriendo en mobile
+    Scenario: Busca una Propiedad en Arriendo en mobile
 
        Given El usuario esta en Toctoc en mobile
         When El usuario hace click en el Boton Arrendar
@@ -59,13 +61,13 @@ Feature: Buscador Principal HomePage
          And El sistema muestra las propiedades en Arriendo en mobile
         Then Selecciona la primera propiedad en Arriendo
         
-  Scenario: Busca una Propiedad por codigo y cotiza la propiedad en mobile
+    Scenario: Busca una Propiedad por codigo y cotiza la propiedad en mobile
         
         Given El usuario esta en Toctoc en mobile
        ## When Inicia sesion con credenciales valida
         When El usuario hace click en el Link Buscar por codigo
          And Ingresa el codigo de la propiedad
-             |codigo        | 
-             |TT-1804829    |  
+            |codigo        | 
+            |TT-1804829    |  
          And El sistema muestra la ficha propiedad
        ## Then El usuario cotiza una planta de interes

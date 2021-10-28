@@ -53,8 +53,8 @@ Then("Selecciona la primera propiedad en Venta", ()=>{
 
 Then("Selecciona la primera propiedad en Venta en mobile", ()=>{
  
-    //cy.get('.lnk-info', {timeout:10000}).should('be.visible')
-    cy.get('.lnk-info', {timeout:10000}).should('be.visible').invoke('removeAttr', 'target').first().click({force:true})
+    cy.get('.lnk-info').should('be.visible', {timeout:10000})
+    cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
 
 })
 
@@ -91,7 +91,8 @@ And("El sistema muestra las propiedades en Arriendo en mobile", ()=>{
 
 Then("Selecciona la primera propiedad en Arriendo", ()=>{
  
-    cy.get('.lnk-info', {timeout:10000}).invoke('removeAttr', 'target').first().click({force:true})
+    cy.get('.lnk-info').should('be.visible', {timeout:10000})
+    cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
 })
 
 When("Inicia sesion con credenciales valida", () =>{
