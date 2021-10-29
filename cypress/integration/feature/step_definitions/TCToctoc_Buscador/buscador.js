@@ -41,19 +41,20 @@ And("El sistema muestra las propiedades en Venta", ()=>{
 And("El sistema muestra las propiedades en Venta en mobile", ()=>{
  
     cy.get('.btn-group > :nth-child(1)').click()
+    cy.wait(4000)
   //  cy.get('.lnk-info', {timeout:10000}).should('be.visible')  
 
 })
 
 Then("Selecciona la primera propiedad en Venta", ()=>{
  
-    cy.get('.lnk-info', {timeout:10000}).should('be.visible')
+    cy.get('.lnk-info', {timeout:5000}).should('be.visible')
     cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
 })
 
 Then("Selecciona la primera propiedad en Venta en mobile", ()=>{
  
-    cy.get('.lnk-info').should('be.visible', {timeout:10000})
+    cy.get('.lnk-info').should('be.visible', {timeout:5000})
     cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
 
 })

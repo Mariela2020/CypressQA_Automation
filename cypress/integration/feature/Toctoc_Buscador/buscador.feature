@@ -5,7 +5,7 @@ Feature: Buscador Principal HomePage
    # Background: Buscador 
     #    Given El usuario esta en Toctoc y cierra el mensaje
 
-    Scenario: Busca una Propiedad en Venta
+   Scenario: Busca una Propiedad en Venta
 
        Given El usuario esta en Toctoc 
         When El usuario hace click en el Boton Comprar 
@@ -37,7 +37,6 @@ Feature: Buscador Principal HomePage
              |TT-1804829    |  
          And El sistema muestra la ficha propiedad
        # Then El usuario cotiza una planta de interes 
-
   
    
     Scenario: Busca una Propiedad en Venta en mobile
