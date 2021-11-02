@@ -12,7 +12,7 @@
     "cy:run:login": "cypress run --spec 'cypress/integration/feature/Toctoc_Login/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Login",
     "cy:run:login1": "cypress run --spec 'cypress/integration/feature/Toctoc_Login/*.feature'",
     "cy:run:buscador": "cypress run --spec 'cypress/integration/feature/Toctoc_Buscador/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Buscador",
-    "cy:run:buscador1": "cypress run --spec 'cypress/integration/feature/Toctoc_Buscador/buscador.feature'",
+    "cy:run:buscador1": "cypress run --spec 'cypress/integration/feature/Toctoc_Buscador/*.feature'",
     "cy:run:inmobiliaria": "cypress run --spec 'cypress/integration/feature/Toctoc_Inmobiliaria/*.feature' --record --key f4d51193-d492-4469-80d4-16cb15bdca57 --tag Inmobiliaria",
     "cy:run:inmobiliaria1": "cypress run --spec 'cypress/integration/feature/Toctoc_Inmobiliaria/*.feature'"
   },
