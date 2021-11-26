@@ -1,5 +1,7 @@
 import {Given, When, And, Then} from "cypress-cucumber-preprocessor/steps"
 
+//--------------- desktop 
+
 Given("El usuario esta en Toctoc", () => {
 
     cy.visit("https://www.toctoc.com/");
@@ -7,15 +9,9 @@ Given("El usuario esta en Toctoc", () => {
     cy.title().should('eq','TOCTOC.com - Casas, Departamentos en Venta y Arriendo publicados en este portal inmobiliario') 
 })
 
-Given("El usuario esta en Toctoc en mobile", () => {
 
-   
-    cy.viewport('iphone-6+')
-    cy.visit("https://www.toctoc.com/");
-    //cy.get('#onesignal-slidedown-cancel-button').click()
-    cy.title().should('eq','TOCTOC.com - Casas, Departamentos en Venta y Arriendo publicados en este portal inmobiliario') 
-})
-     
+//-------------- Comprar
+
 When("El usuario hace click en el Boton Comprar", () =>{
    
     //cy.get('#tipoBusca > :nth-child(1)').click()
@@ -35,29 +31,16 @@ And("El sistema muestra las propiedades en Venta", ()=>{
  
     cy.get(':nth-child(1) > .lnk-info > .c-infores > .info-body > .region', {timeout:10000}).should('be.visible')
     cy.wait(3000)
-    //cy.get(':nth-child(1) > .lnk-info > .c-infores > .info-body > .region', {timeout:10000}).should('be.visible')
-})
-
-And("El sistema muestra las propiedades en Venta en mobile", ()=>{
- 
-    cy.get('.btn-group > :nth-child(1)').click()
-    cy.wait(4000)
-  //  cy.get('.lnk-info', {timeout:10000}).should('be.visible')  
-
+   
 })
 
 Then("Selecciona la primera propiedad en Venta", ()=>{
  
-    cy.get('.lnk-info', {timeout:5000}).should('be.visible')
+    cy.get('.lnk-info', {timeout:10000}).should('be.visible')
     cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
 })
 
-Then("Selecciona la primera propiedad en Venta en mobile", ()=>{
- 
-    cy.get('.lnk-info').should('be.visible', {timeout:5000})
-    cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
-
-})
+//----------------- Arrendar
 
 When("El usuario hace click en el Boton Arrendar", () =>{
     
@@ -72,6 +55,54 @@ And("Ingresa una comuna de interes", (datatable) =>{
     cy.xpath('/html/body/div[3]/section[1]/div/div/div[1]/div[2]/div/div[2]/form/div/div/div[1]/span').click() 
 })
 
+And("El sistema muestra las propiedades en Arriendo", ()=>{
+ 
+    cy.get(':nth-child(2) > .lnk-info > .c-infores > .info-body > .region', {timeout:10000}).should('be.visible').and('contain','Santiago')
+})
+
+
+Then("Selecciona la primera propiedad en Arriendo", ()=>{
+ 
+    cy.get('.lnk-info', {timeout:10000}).invoke('removeAttr', 'target').first().click({force:true})
+})
+
+
+//------------- Mobile
+
+Given("El usuario esta en Toctoc en mobile", () => {
+
+   
+    cy.viewport('iphone-6+')
+    cy.visit("https://www.toctoc.com/");
+    cy.get('#onesignal-slidedown-cancel-button', {timeout:5000}).click()
+    cy.title().should('eq','TOCTOC.com - Casas, Departamentos en Venta y Arriendo publicados en este portal inmobiliario') 
+})
+
+//------------- Comprar Mobile
+
+And("Ingresa una comuna o region de interes en Moblle", (datatable) =>{
+
+    datatable.hashes().forEach((element) => {
+        cy.get('#boxBuscador > .form-control').type(element.region)
+    })
+    cy.get(':nth-child(2) > .form-row > .col-sm-3 > #btnBusca', {timeout:5000}).click()   
+})
+
+And("El sistema muestra las propiedades en Venta en mobile", ()=>{
+ 
+    cy.wait(5000)
+    cy.get('.btn-group > :nth-child(1)').should('be.visible').click()
+
+})
+
+Then("Selecciona la primera propiedad en Venta en mobile", ()=>{
+ 
+   cy.get('.lnk-info', {timeout:10000}).should('be.visible').invoke('removeAttr', 'target').first().click({force:true})
+
+})
+
+//--------------- Arrendar Mobile
+
 And("Ingresa una comuna de interes en mobile", (datatable) =>{
 
     datatable.hashes().forEach((element) => {
@@ -80,21 +111,15 @@ And("Ingresa una comuna de interes en mobile", (datatable) =>{
     cy.get(':nth-child(2) > .form-row > .col-sm-3 > #btnBusca').click() 
 })
 
-And("El sistema muestra las propiedades en Arriendo", ()=>{
- 
-    cy.get(':nth-child(2) > .lnk-info > .c-infores > .info-body > .region', {timeout:10000}).should('be.visible').and('contain','Santiago')
-})
 
 And("El sistema muestra las propiedades en Arriendo en mobile", ()=>{
  
+    cy.wait(5000)
     cy.get('.btn-group > :nth-child(1)', {timeout:10000}).should('be.visible').click()
 })
 
-Then("Selecciona la primera propiedad en Arriendo", ()=>{
- 
-    cy.get('.lnk-info').should('be.visible', {timeout:10000})
-    cy.get('.lnk-info').invoke('removeAttr', 'target').first().click({force:true})
-})
+
+//---------- Login-cotizar 
 
 When("Inicia sesion con credenciales valida", () =>{
 
@@ -108,6 +133,8 @@ When("Inicia sesion con credenciales valida", () =>{
     cy.wait(2000)
     cy.get('.nom-user').should('be.visible').and('contain','Mariela') 
 })
+
+//---------------- Buscar por código
 
 And("El usuario hace click en el Link Buscar por codigo", ()=>{
 
