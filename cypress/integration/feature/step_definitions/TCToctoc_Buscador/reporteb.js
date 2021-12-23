@@ -26,7 +26,7 @@ Given('Obtiene y registra las metricas de Toctoc Buscador', () =>{
       var state_co = data.results[0].suites[0].tests[2].state
       cy.log(state_co)
             
-     /* var comprar_mo = data.results[0].suites[0].tests[3].duration
+      var comprar_mo = data.results[0].suites[0].tests[3].duration
       cy.log(comprar_mo)
       var state_com_mo = data.results[0].suites[0].tests[3].state
       cy.log(state_com_mo)
@@ -37,8 +37,8 @@ Given('Obtiene y registra las metricas de Toctoc Buscador', () =>{
       var codigo_mo = data.results[0].suites[0].tests[5].duration
       cy.log(codigo_mo)
       var state_co_mo = data.results[0].suites[0].tests[5].state
-      cy.log(state_co_mo)     */
-           
+      cy.log(state_co_mo)     
+
       cy.request({
         url: 'https://coda.io/apis/v1/docs/WvYdhdLDJH/tables/data_cy_buscador/rows', 
         method: 'POST',
@@ -67,7 +67,7 @@ Given('Obtiene y registra las metricas de Toctoc Buscador', () =>{
         expect(response.status).to.eq(202)
       })
 
-     /* cy.request({
+      cy.request({
         url: 'https://coda.io/apis/v1/docs/WvYdhdLDJH/tables/data_cy_buscador_mobile/rows', 
         method: 'POST',
         headers: {
@@ -93,7 +93,7 @@ Given('Obtiene y registra las metricas de Toctoc Buscador', () =>{
                 
       }).then((response) => {
         expect(response.status).to.eq(202)
-      })*/
+      })
                
            
     })
