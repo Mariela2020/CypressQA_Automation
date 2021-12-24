@@ -92,7 +92,7 @@ And("El sistema muestra las propiedades en Venta en mobile", ()=>{
  
     cy.wait(5000)
     cy.get('.mapboxgl-canvas', {timeout:10000}).should('be.visible')
-    cy.get('.btn-group > :nth-child(1)').should('be.visible').click()
+    cy.get('.btn-group > :nth-child(1)', {timeout:10000}).should('be.visible').click()
 
 })
 
