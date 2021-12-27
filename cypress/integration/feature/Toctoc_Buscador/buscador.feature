@@ -1,7 +1,7 @@
 Feature: Buscador Principal HomePage
 
     Como usuario quiero buscar una propiedad  
-        
+
    @comprar-desktop 
    Scenario: Busca una Propiedad en Venta
 
@@ -36,14 +36,15 @@ Feature: Buscador Principal HomePage
          And El sistema muestra la ficha propiedad
       # Then El usuario cotiza una planta de interes
  
+  
     @comprar-mobile
     Scenario: Busca una Propiedad en Venta en mobile
 
        Given El usuario esta en Toctoc en mobile
         When El usuario hace click en el Boton Comprar 
          And Ingresa una comuna o region de interes en Moblle
-             |region                  | 
-             |Ñuble, Chile            |
+             |region                       | 
+             |Valparaíso, Chile            |
          And El sistema muestra las propiedades en Venta en mobile
         Then Selecciona la primera propiedad en Venta en mobile
         
@@ -54,7 +55,7 @@ Feature: Buscador Principal HomePage
         When El usuario hace click en el Boton Arrendar
          And Ingresa una comuna de interes en mobile
              |comuna                   | 
-             |San Miguel, Santiago     |  
+             |Las condes, Santiago     |  
          And El sistema muestra las propiedades en Arriendo en mobile
         Then Selecciona la primera propiedad en Arriendo
         

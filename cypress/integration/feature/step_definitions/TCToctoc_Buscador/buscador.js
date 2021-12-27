@@ -86,6 +86,7 @@ And("Ingresa una comuna o region de interes en Moblle", (datatable) =>{
         cy.get('#boxBuscador > .form-control').type(element.region)
     })
     cy.get(':nth-child(2) > .form-row > .col-sm-3 > #btnBusca', {timeout:5000}).click()   
+    cy.wait(3000)
 })
 
 And("El sistema muestra las propiedades en Venta en mobile", ()=>{
@@ -110,6 +111,7 @@ And("Ingresa una comuna de interes en mobile", (datatable) =>{
         cy.get('#boxBuscador > .form-control').type(element.comuna)
     })
     cy.get(':nth-child(2) > .form-row > .col-sm-3 > #btnBusca').click() 
+    cy.wait(3000)
 })
 
 
