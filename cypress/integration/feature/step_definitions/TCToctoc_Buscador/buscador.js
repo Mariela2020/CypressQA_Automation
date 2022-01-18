@@ -156,7 +156,7 @@ And("Ingresa el codigo de la propiedad", (datatable) =>{
      
 And("El sistema muestra la ficha propiedad", ()=> {
 
-    cy.url().should('include', 'https://www.toctoc.com/propiedades/', {timeout:10000})
+    cy.url().should('include', 'toctoc.com/propiedades/', {timeout:10000})
    // cy.get('.dir', {timeout:10000}).should('be.visible')
    // cy.get('.tt-ficha', {timeout:10000}).should('be.visible')
 })
